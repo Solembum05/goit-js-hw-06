@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   margin: 16px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -13,12 +13,28 @@ body {
   line-height: 1.5;
 }
 
-input {
+.input {
   padding: 8px;
   font: inherit;
 }
 
-button {
+.button {
   padding: 8px 12px;
   cursor: pointer;
+}
+
+.examples-img {
+  width: 150px;
+  height: 100px;
+  display: flex;
+}
+
+.exaples-el {
+  flex-basis: calc((100% - 48px) / 3);
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
